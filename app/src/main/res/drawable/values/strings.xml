@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">MyTravelGuide</string>
+    <string name="login_now">Login Now</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="sign_in">Sign In</string>
+    <string name="logo">Logo</string>
+    <string name="reg_desp">Do not have Account? Create Now</string>
+    <string name="forget_password">Forget Password ?</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="create_account">Create Account</string>
+    <string name="log_desp">Already have account? Login Now</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="fun">Fun</string>
+    <string name="attractions">Attractions</string>
+    <string name="shops">Shops</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="cafe">Cafe</string>
+    <string name="hotels">Hotels</string>
+    <string name="sub_title">Let us start discovering Nanded.</string>
+    <string name="welcome">Welcome!</string>
+    <string name="name">Name</string>
+    <string name="_4_7">4.7</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="image">Image</string>
+    <string name="forget_pass">Forget Password</string>
+    <string name="log_despriction">Already have account and know passsord? Login Now</string>
+    <string name="send_mail">Send Mail</string>
+    <string name="show_password">Show Password</string>
+    <string name="information">Information:</string>
+    <string name="address_detail">Samrat Nagar, Hyder Bagh, Dashmesh Nagar, Harsh Nagar, Nanded-Waghala, Maharashtra 431601</string>
+    <string name="address">Address:</string>
+    <string name="num">+91 75438 23012</string>
+    <string name="contact_no">Contact No.</string>
+    <string name="info_detail">Along with a restaurant, this hotel has dry cleaning and laundry facilities. Free WiFi in public areas, free valet parking and a free manager\'s reception are also provided. Other amenities include a 24-hour front desk, free newspapers and tour/ticket assistance. All 19 rooms offer flat-screen TVs with cable channels, plus free bottled water and showers.All efforts are dedicated to providing luxury and comfort. Everything is designed so as to be unobtrusive.</string>
+    <string name="more_info">A good way to get more traffic to the website is to create a blog section on the site and make sure it is updated regularly. Conduct interviews with locals and post the interviews on the blog, or do a post on the best activities to do in the town based on the season.f your town or city doesn’t already have a website, make a website with a simple, easy to use template. Be sure to use high quality images and graphics on the site so it looks professional and inviting</string>
+</resources>

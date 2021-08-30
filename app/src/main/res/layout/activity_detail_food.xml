@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#efeee9"
+    android:weightSum="2"
+    tools:context=".DetailFoodActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="0.7">
+        <ImageView
+            android:id="@+id/list_img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:contentDescription="Image" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1.3"
+        android:padding="10sp">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="XYZ recipe"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:gravity="center_horizontal"
+                    android:background="@color/primaryColorOfApp"
+                    android:padding="5sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Calorie Count :"
+                    android:layout_marginTop="10sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/primaryColorOfApp"
+                    android:textSize="20sp"
+                    android:fontFamily="sans-serif-condensed"/>
+
+                <TextView
+                    android:id="@+id/calorie_count"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:fontFamily="sans-serif-condensed"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Right time to take it:"
+                    android:layout_marginTop="10sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/primaryColorOfApp"
+                    android:textSize="20sp"
+                    android:fontFamily="sans-serif-condensed"/>
+
+                <TextView
+                    android:id="@+id/right_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:fontFamily="sans-serif-condensed"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Worst time to take it:"
+                    android:layout_marginTop="10sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/primaryColorOfApp"
+                    android:textSize="20sp"
+                    android:fontFamily="sans-serif-condensed"/>
+
+                <TextView
+                    android:id="@+id/worst_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:fontFamily="sans-serif-condensed" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Best way to Consume it:"
+                    android:layout_marginTop="10sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/primaryColorOfApp"
+                    android:textSize="20sp"
+                    android:fontFamily="sans-serif-condensed"/>
+
+
+                <TextView
+                    android:id="@+id/consume"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:layout_marginTop="10sp"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:fontFamily="sans-serif-condensed"/>
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+</LinearLayout>
